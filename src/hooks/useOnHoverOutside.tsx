@@ -1,14 +1,22 @@
-import { useEffect } from "react";
+import { useEffect, RefObject } from "react";
+interface EventListenerProps {
+  target: EventTarget | null;
+}
 
-export function useOnHoverOutside(ref, handler) {
+export function useOnHoverOutside(
+  ref: RefObject<HTMLElement>,
+  handler: (event: EventListenerProps) => void
+) {
   useEffect(() => {
-    const listener = (event) => {
-      if (!ref.current || ref.current.contains(event.target)) {
+    const listener = (event: MouseEvent) => {
+      if (!ref.current || ref.current.contains(event.target as Node)) {
         return;
       }
-      handler(event);
+      handler({ target: event.target });
     };
+
     document.addEventListener("mouseover", listener);
+
     return () => {
       document.removeEventListener("mouseout", listener);
     };
