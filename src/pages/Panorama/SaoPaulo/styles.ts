@@ -1,0 +1,59 @@
+import styled from "styled-components";
+import divider1 from "../../../assets/divider1.png";
+
+export const Container = styled.div`
+  flex: 1;
+  width: 100%;
+  height: 100%;
+`;
+
+export const ContainerImage2 = styled.div`
+  flex: 1;
+
+  width: 100vw;
+  height: 100vh;
+  background-image: url(${divider1});
+
+  background-size: cover;
+  background-position: center;
+`;
+
+export const Title = styled.text`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 100px;
+
+  color: #000;
+
+  font-size: 42px;
+  font-weight: bold;
+`;
+
+export const TextContent = styled.div`
+  margin: 100px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const Text = styled.text`
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+`;
+
+export const Image2 = styled.img`
+  width: 100vw;
+`;
+
+export const SubTitle = styled.text`
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #000;
+
+  font-size: 28px;
+  font-weight: bold;
+`;
