@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useOnHoverOutside } from "../../hooks/useOnHoverOutside";
 import {
   Container,
@@ -54,8 +54,8 @@ export function Menu() {
     <Container>
       <Content>
         <nav>
-          <Link
-            to="/#panorama"
+          <a
+            href="/#panorama"
             onClick={() => handleNavigation(panoramaRef, "panorama")}
             data-id="panorama"
           >
@@ -68,34 +68,34 @@ export function Menu() {
                 <DropDownSelect>
                   <Text>Panorama</Text>
 
-                  <Link
-                    to="/#brasil"
+                  <a
+                    href="/#brasil"
                     onClick={() => handleNavigation(brasilRef, "brasil")}
                     data-id="brasil"
                   >
                     Brasil
-                  </Link>
-                  <Link
-                    to="/#saoPaulo"
+                  </a>
+                  <a
+                    href="/#saoPaulo"
                     onClick={() => handleNavigation(saoPauloRef, "saoPaulo")}
                     data-id="saoPaulo"
                   >
                     São Paulo
-                  </Link>
-                  <Link
-                    to="/#bauru"
+                  </a>
+                  <a
+                    href="/#bauru"
                     onClick={() => handleNavigation(bauruRef, "bauru")}
                     data-id="bauru"
                   >
                     Bauru
-                  </Link>
+                  </a>
                 </DropDownSelect>
               )}
             </DropDownContainer>
-          </Link>
+          </a>
 
-          <Link
-            to="/#entrevistaComExpecialista"
+          <a
+            href="/#entrevistaComExpecialista"
             onClick={() =>
               handleNavigation(
                 entrevistaComEspecialistaRef,
@@ -105,22 +105,22 @@ export function Menu() {
             data-id="entrevistaComExpecialista"
           >
             <Text>Entrevista com especialista</Text>
-          </Link>
+          </a>
 
-          <Link
-            to="/#bauruAFundo"
+          <a
+            href="/#bauruAFundo"
             onClick={() => handleNavigation(bauruAFundoRef, "bauruAFundo")}
             data-id="bauruAFundo"
           >
             <Text>Bauru a fundo</Text>
-          </Link>
-          <Link
-            to="/#sobreNos"
+          </a>
+          <a
+            href="/#sobreNos"
             onClick={() => handleNavigation(sobreNosRef, "sobreNos")}
             data-id="sobreNos"
           >
             <Text>Sobre nós</Text>
-          </Link>
+          </a>
         </nav>
       </Content>
     </Container>

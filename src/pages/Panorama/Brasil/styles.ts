@@ -108,3 +108,7 @@ export const Box = styled.div`
   margin-top: 40px;
   margin-bottom: 40px;
 `;
+
+export const Space = styled.div`
+  height: -10vh;
+`;

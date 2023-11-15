@@ -12,7 +12,7 @@ export const Container = styled.div`
   background-position: top;
 
   background-image: url(${capa});
-  background-size: 1160px auto;
+  background-size: 1160px auto cover;
   background-position: top;
   background-repeat: no-repeat;
   margin-top: 7vh;

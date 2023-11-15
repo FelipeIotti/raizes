@@ -57,3 +57,6 @@ export const SubTitle = styled.text`
   font-size: 28px;
   font-weight: bold;
 `;
+export const Space = styled.div`
+  height: 9vh;
+`;

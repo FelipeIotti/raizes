@@ -124,3 +124,6 @@ export const ImageRight = styled.img`
   width: 35%;
   margin-right: -100px;
 `;
+export const Space = styled.div`
+  height: 9vh;
+`;

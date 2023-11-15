@@ -19,9 +19,9 @@ import {
 
 import dividerHispano from "../../assets/dividerHispano.png";
 import dividerAzulPreto from "../../assets/dividerazulpreto.png";
-import graficoPizza1 from "../../assets/graficopizza1.png";
-import graficoPizza2 from "../../assets/graficopizza2.png";
-import grafico5 from "../../assets/grafico5.png";
+import graficoPizza1 from "../../assets/graficopizza1.svg";
+import graficoPizza2 from "../../assets/graficopizza2.svg";
+import grafico5 from "../../assets/grafico5.svg";
 
 export function EntrevistaComExpecialista() {
   const entrevistaComExpecialistaRef = useRef(null);

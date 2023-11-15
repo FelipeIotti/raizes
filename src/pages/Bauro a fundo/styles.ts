@@ -176,3 +176,6 @@ export const ContentText = styled.div`
   flex: 1;
   margin-right: 20px;
 `;
+export const Space = styled.div`
+  height: 9vh;
+`;
