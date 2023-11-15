@@ -19,8 +19,8 @@ import {
 
 import dividerHispano from "../../assets/dividerHispano.png";
 import dividerAzulPreto from "../../assets/dividerazulpreto.png";
-import graficoPizza1 from "../../assets/graficopizza1.svg";
-import graficoPizza2 from "../../assets/graficopizza2.svg";
+import graficoPizza from "../../assets/graficoPizza.svg";
+import graficoPizza1 from "../../assets/graficoPizza1.svg";
 import grafico5 from "../../assets/grafico5.svg";
 
 export function EntrevistaComExpecialista() {
@@ -358,8 +358,8 @@ export function EntrevistaComExpecialista() {
           relação à atratividade.
         </Text>
         <PizzaImagesContainer>
-          <Image3 src={graficoPizza1} alt="graficoPizza1" />
-          <Image3 src={graficoPizza2} alt="graficoPizza2" />
+          <Image3 src={graficoPizza} alt="graficoPizza1" />
+          <Image3 src={graficoPizza1} alt="graficoPizza2" />
         </PizzaImagesContainer>
         <Question>
           <br />O que está igual e o que está diferente entre as ondas
