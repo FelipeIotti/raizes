@@ -24,7 +24,7 @@ export function Bauru() {
       <Space id="bauru" ref={bauruRef} />
 
       <Container>
-        <Title>Panorama Geral - Bauru</Title>
+        <Title>Escolher viver no centro-oeste paulista</Title>
         <TextContent>
           <SubTitle>Marcha para o oeste</SubTitle>
           <Text>
@@ -51,6 +51,7 @@ export function Bauru() {
               href={
                 "http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=4AA173CBF93ED10870F55BB7B87E7DB7.buscatextual_0"
               }
+              target="_blank"
             >
               município de Bauru
             </a>

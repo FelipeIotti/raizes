@@ -37,7 +37,11 @@ export function BauruAFundo() {
           <ContentTitle>
             <Logo src={logoImg} alt="logo" />
 
-            <Title>subtitle</Title>
+            <Title>
+              Imigrantes <br />
+              hispano-americanos
+              <br /> em Bauru
+            </Title>
           </ContentTitle>
 
           <ContentVideoText>
@@ -58,15 +62,12 @@ export function BauruAFundo() {
                 <>&nbsp;</>
                 <>&nbsp;</>
                 <>&nbsp;</>
-                Atualmente desenvolve projeto de pesquisa que analisa as formas
-                de acesso e as eventuais barreiras encontradas por imigrantes e
-                refugiados para usufruir dos direitos fundamentais no Brasil.
-                Desde 2016 coordena o Núcleo de Assessoria a Imigrantes e
-                Refugiados, projeto de extensão da Unesp Marília, que emprega os
-                conhecimentos produzidos nas áreas de Relações Internacionais e
-                Ciências Sociais para oferecer assessoria a imigrantes e
-                refugiados, de maneira a facilitar a adaptação cultural e a
-                inclusão na sociedade local.
+                Daniel Sebastián Flores Trujillo, de 26 anos, nasceu em Quito,
+                capital do Equador. Ele é apaixonado por futebol, assim, quando
+                aos 21 anos perguntaram para ele em qual país ele gostaria de
+                fazer um intercâmbio acadêmico, a resposta foi óbvia: o Brasil.
+                Há 5 anos da sua decisão, Daniel reside em Bauru, cidade que o
+                recebeu de braços abertos e onde ele decidiu criar raízes.
               </Text>
             </ContentText>
           </ContentVideoText>
@@ -78,15 +79,14 @@ export function BauruAFundo() {
                 <>&nbsp;</>
                 <>&nbsp;</>
                 <>&nbsp;</>
-                Atualmente desenvolve projeto de pesquisa que analisa as formas
-                de acesso e as eventuais barreiras encontradas por imigrantes e
-                refugiados para usufruir dos direitos fundamentais no Brasil.
-                Desde 2016 coordena o Núcleo de Assessoria a Imigrantes e
-                Refugiados, projeto de extensão da Unesp Marília, que emprega os
-                conhecimentos produzidos nas áreas de Relações Internacionais e
-                Ciências Sociais para oferecer assessoria a imigrantes e
-                refugiados, de maneira a facilitar a adaptação cultural e a
-                inclusão na sociedade local.
+                Com as malas feitas às pressas e uma vida toda deixada para
+                trás, Sulleydis Aurora Barceló e Júlio Ovídio Aguilera passaram
+                a fronteira entre a Venezuela e o Brasil. Tendo passagens por
+                Manaus e Mineiros do Tietê, em 2021 chegam à Bauru. O casal e a
+                filha adolescente fazem da arte da pâtisserie, com um toque da
+                culinária venezuelana – e agora também a brasileira– o seu
+                sustento. Com um sotaque marcado e um sorriso no rosto, a
+                família também decidiu criar raízes na cidade.
               </Text>
             </ContentText>
             <ContentVideo>

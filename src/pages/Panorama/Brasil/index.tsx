@@ -12,6 +12,7 @@ import {
   Box,
   Image2,
   Space,
+  LegendData,
 } from "./styles";
 import grafico1 from "../../../assets/grafico1.svg";
 import grafico2 from "../../../assets/grafico2.png";
@@ -25,7 +26,7 @@ export function Brasil() {
       <Space id="brasil" ref={brasilRef} />
       <Container>
         <ContainerImage />
-        <Title>Panorama Geral - Brasil</Title>
+        <Title>Forjados na imigração</Title>
         <TextContent>
           <Text>
             <br />
@@ -42,6 +43,7 @@ export function Brasil() {
               href={
                 "https://portaldeimigracao.mj.gov.br/pt/dados/microdados/1733-obmigra/dados/microdados/401205-sismigra"
               }
+              target="_blank"
             >
               SISMIGRA
             </a>
@@ -52,6 +54,11 @@ export function Brasil() {
           </Text>
           <ImageContent>
             <Image src={grafico1} alt="gráfico1" />
+            <LegendData>
+              Fonte: Os 10 países com o maior número de imigrantes em São Paulo
+              em outubro de 2023 | Sismigra/ Ministério da Justiça e Segurança
+              Pública
+            </LegendData>
           </ImageContent>
 
           <Text>
@@ -99,7 +106,7 @@ export function Brasil() {
             412.270 são venezuelanos.
           </Eye>
 
-          <SubTitle>Intertitulo</SubTitle>
+          <SubTitle>Ponto de partida</SubTitle>
           <Text>
             <br />
             <>&nbsp;</>
@@ -135,6 +142,11 @@ export function Brasil() {
           </Text>
           <ImageContent>
             <Image src={grafico2} alt="gráfico2" />
+            <LegendData>
+              Fonte: Os 10 países com o maior número de imigrantes em Bauru em
+              outubro de 2023 | Sismigra/ Ministério da Justiça e Segurança
+              Pública
+            </LegendData>
           </ImageContent>
 
           <Text>
@@ -151,7 +163,7 @@ export function Brasil() {
             residência.
           </Text>
 
-          <SubTitle>Intertítulo</SubTitle>
+          <SubTitle>Novos fluxos</SubTitle>
 
           <Text>
             <br />
@@ -160,22 +172,33 @@ export function Brasil() {
             <>&nbsp;</>
             <>&nbsp;</>
             Não foi só a etnia dos imigrantes que mudou, mas toda a lógica dos
-            fluxos migratórios. Os países sul-americanos deixaram de ser apenas
-            receptores para serem também emissores e lugares de passagem.
-            Caracteriza-se, então, o fluxo intrarregional, que acontece com
-            pessoas se mudando dentro de uma mesma região.
+            fluxos migratórios. Segundo Mayra Coan Lago em
+            <>&nbsp;</>
+            <a
+              href={
+                "https://travessia.emnuvens.com.br/travessia/issue/view/106/117"
+              }
+              target="_blank"
+            >
+              “Política Migratória Brasileira e Comparada na América do Sul”,
+            </a>
+            <>&nbsp;</>
+            os países sul-americanos deixaram de ser apenas receptores para
+            serem também emissores e lugares de passagem. Caracteriza-se, então,
+            o fluxo intrarregional, que acontece com pessoas se mudando dentro
+            de uma mesma região.
           </Text>
           <Text>
             <br />
             <>&nbsp;</>
             <>&nbsp;</>
             <>&nbsp;</>
-            <>&nbsp;</>O início do século XXI na América do Sul foi de
-            crescimento econômico, aumento da oferta de emprego e melhoria das
-            condições sociais e políticas. Em paralelo, os atentados terroristas
-            de 2001 nos Estados Unidos e a crise econômica internacional de 2008
-            estimularam medidas mais restritivas à imigração em países da Europa
-            e nos Estados Unidos.
+            <>&nbsp;</>Lago explica que o início do século XXI na América do Sul
+            foi de crescimento econômico, aumento da oferta de emprego e
+            melhoria das condições sociais e políticas. Em paralelo, os
+            atentados terroristas de 2001 nos Estados Unidos e a crise econômica
+            internacional de 2008 estimularam medidas mais restritivas à
+            imigração em países da Europa e nos Estados Unidos.
           </Text>
           <Text>
             <br />
@@ -184,18 +207,29 @@ export function Brasil() {
             <>&nbsp;</>
             <>&nbsp;</>
             Essa movimentação deslocou os fluxos migratórios para outras
-            regiões. A América do Sul, em especial o Brasil, se torna mais
-            atraente para migrantes voluntários e não voluntários buscarem
-            melhores condições de vida. Nessa toada, o Mercosul e outros acordos
-            multilaterais colaboraram para uma integração regional.
+            regiões, explica a autora. A América do Sul, em especial o Brasil,
+            se torna mais atraente para migrantes voluntários e não voluntários
+            buscarem melhores condições de vida. Nessa toada, o Mercosul e
+            outros acordos multilaterais colaboraram para uma integração
+            regional.
           </Text>
           <Text>
             <br />
             <>&nbsp;</>
             <>&nbsp;</>
             <>&nbsp;</>
-            <>&nbsp;</>O relatório da ONU Migration de 2020 compara a presença
-            de estrangeiros no território sul-americano.
+            <>&nbsp;</>O relatório da
+            <>&nbsp;</>
+            <a
+              href={
+                "https://brazil.iom.int/pt-br/news/relatorio-mundial-sobre-migracao-da-oim-mostra-aumento-do-deslocamento-global-apesar-dos-limites-de-mobilidade-da-covid-19"
+              }
+              target="_blank"
+            >
+              ONU Migration de 2020
+            </a>
+            <>&nbsp;</>
+            compara a presença de estrangeiros no território sul-americano.
           </Text>
 
           <Box>
@@ -221,6 +255,7 @@ export function Brasil() {
               href={
                 "http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=4AA173CBF93ED10870F55BB7B87E7DB7.buscatextual_0"
               }
+              target="_blank"
             >
               María del Carmen Villarreal Villamar
             </a>
@@ -243,6 +278,10 @@ export function Brasil() {
 
           <ImageContent>
             <Image src={grafico3} alt="gráfico3" />
+            <LegendData>
+              Fonte: Registro de entradas de imigrantes em Bauru de 2019 a 2023|
+              Sismigra/ Ministério da Justiça e Segurança Pública
+            </LegendData>
           </ImageContent>
         </TextContent>
         <Image2 src={divider1} alt="gráfico3" />

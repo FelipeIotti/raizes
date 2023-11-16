@@ -41,12 +41,14 @@ export const Title = styled.text`
 
   color: #000;
 
-  font-size: 42px;
+  font-size: 32px;
   font-weight: bold;
 `;
 
 export const TextContent = styled.div`
   margin: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
@@ -54,11 +56,21 @@ export const TextContent = styled.div`
 
 export const Text = styled.text`
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   a {
     color: #e38400;
   }
+`;
+
+export const LegendData = styled.text`
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.6;
+  font-style: italic;
+  margin-right: 15%;
+  margin-left: 15%;
 `;
 
 export const ImageContent = styled.div`
@@ -66,6 +78,7 @@ export const ImageContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin-top: 40px;
   margin-bottom: 40px;
 `;
@@ -87,7 +100,7 @@ export const Eye = styled.text`
 
   color: #ad3f83;
 
-  font-size: 32px;
+  font-size: 20px;
   font-weight: bold;
 `;
 
@@ -96,7 +109,7 @@ export const SubTitle = styled.text`
   margin-bottom: 20px;
   color: #000;
 
-  font-size: 28px;
+  font-size: 22px;
   font-weight: bold;
 `;
 

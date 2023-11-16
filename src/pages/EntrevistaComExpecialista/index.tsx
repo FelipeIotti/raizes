@@ -297,6 +297,7 @@ export function EntrevistaComExpecialista() {
             href={
               "https://g1.globo.com/sp/bauru-marilia/noticia/2022/06/27/venezuelanos-sao-resgatados-de-trabalho-analogo-ao-de-escravo-no-interior-de-sp.ghtml"
             }
+            target="_blank"
           >
             foram resgatadas de trabalho análogo á escravidão.
           </a>

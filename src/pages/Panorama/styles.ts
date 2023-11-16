@@ -24,12 +24,12 @@ export const ContainerImage = styled.div`
 export const Title = styled.text`
   margin: 10px;
   color: #000;
-  font-size: 52px;
+  font-size: 32px;
   font-weight: bold;
 `;
 export const Text = styled.text`
   margin: 10px;
   color: #000;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: normal;
 `;

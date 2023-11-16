@@ -2,8 +2,9 @@ import { useRef } from "react";
 import {
   Container,
   Image2,
+  Legend,
+  LegendContent,
   Space,
-  SubTitle,
   Text,
   TextContent,
   Title,
@@ -18,10 +19,16 @@ export function SaoPaulo() {
       <Space id="saoPaulo" ref={saoPauloRef} />
 
       <Container>
-        <Title>Panorama Geral - São Paulo</Title>
+        <Title>Em São Paulo somos todos imigrantes</Title>
         <Image2 src={grafite} alt="grafite" />
+        <LegendContent>
+          <Legend>
+            Mural perto da Praça Kantuta no Pari, em São Paulo, local é
+            conhecido por ter uma grande população boliviana residindo na
+            capital | Reprodução/Google Street View
+          </Legend>
+        </LegendContent>
         <TextContent>
-          <SubTitle>Intertítulo</SubTitle>
           <Text>
             <br />
             <>&nbsp;</>
@@ -56,12 +63,20 @@ export function SaoPaulo() {
             <>&nbsp;</>
             <>&nbsp;</>
             <>&nbsp;</>
-            As porções de imigrantes acabam se assentando em bairros específicos
-            do município, estabelecendo dinâmicas próprias entre si, que acabam
-            por preservar a cultura. Em bairros como Brás, é possível observar
-            uma variedade de festas, ornamentos, pratos para todas as horas do
-            dia e danças com trajes diferentes do que o brasileiro está
-            acostumado a ver.
+            Fábio Pucci e Maura Véras, da PUC-SP, no artigo
+            <>&nbsp;</>
+            <a
+              href={"https://www.revistas.usp.br/plural/article/view/143006"}
+              target="_blank"
+            >
+              “Bolivianos em São Paulo: territórios e alteridade”
+            </a>
+            , explicam que as porções de imigrantes acabam se assentando em
+            bairros específicos do município, estabelecendo dinâmicas próprias
+            entre si, que acabam por preservar a cultura. Em bairros como Brás,
+            é possível observar uma variedade de festas, ornamentos, pratos para
+            todas as horas do dia e danças com trajes diferentes do que o
+            brasileiro está acostumado a ver.
           </Text>
 
           <Text>

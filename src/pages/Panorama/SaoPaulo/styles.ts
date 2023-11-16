@@ -43,6 +43,21 @@ export const Text = styled.text`
   color: #000;
   font-size: 18px;
   font-weight: normal;
+  a {
+    color: #e38400;
+  }
+`;
+
+export const LegendContent = styled.div`
+  margin-left: 100px;
+  margin-right: 100px;
+`;
+export const Legend = styled.text`
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  opacity: 0.5;
 `;
 
 export const Image2 = styled.img`

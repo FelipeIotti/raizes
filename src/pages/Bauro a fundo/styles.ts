@@ -14,10 +14,11 @@ export const Title = styled.text`
   justify-content: center;
 
   margin-bottom: 10px;
+  margin-left: 80px;
 
   color: #000;
 
-  font-size: 42px;
+  font-size: 32px;
   font-weight: bold;
 `;
 
@@ -38,6 +39,8 @@ export const TitleUnderline = styled.text`
 
 export const TextContent = styled.div`
   margin: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
   margin-top: 140px;
   margin-bottom: 60px;
   display: flex;
@@ -46,7 +49,7 @@ export const TextContent = styled.div`
 
 export const Text = styled.text`
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   a {
     color: #e38400;
@@ -90,7 +93,7 @@ export const Eye = styled.text`
 
   color: #ad3f83;
 
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 `;
 
@@ -99,7 +102,7 @@ export const SubTitle = styled.text`
   margin-bottom: 20px;
   color: #000;
 
-  font-size: 28px;
+  font-size: 22px;
   font-weight: bold;
 `;
 
@@ -126,7 +129,7 @@ export const ContentImageText = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: -60px;
+  margin-top: 60px;
 `;
 
 export const Logo = styled.img`
@@ -163,8 +166,7 @@ export const ContentVideoText = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  margin-bottom: 100px;
+  margin-top: 80px;
 `;
 
 export const ContentVideo = styled.div`
