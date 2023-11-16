@@ -43,9 +43,9 @@ export function BauruAFundo() {
           <ContentVideoText>
             <ContentVideo>
               <iframe
-                width="100%"
-                height="300"
-                src="https://www.youtube.com/embed/qZXzb7OqdAs?si=AevmMdW2DTQwhBEn"
+                width="460"
+                height="315"
+                src="https://www.youtube.com/embed/R-rMXgr7IB4?si=4uKJQZL6pNCnXGQo"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -91,9 +91,9 @@ export function BauruAFundo() {
             </ContentText>
             <ContentVideo>
               <iframe
-                width="100%"
-                height="300"
-                src="https://www.youtube.com/embed/qZXzb7OqdAs?si=AevmMdW2DTQwhBEn"
+                width="460"
+                height="315"
+                src="https://www.youtube.com/embed/P7N2hYOuvjM?si=Mqtau0syiBn20K1j"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
