@@ -27,7 +27,7 @@ export const Title = styled.text`
 
   color: #000;
 
-  font-size: 42px;
+  font-size: 32px;
   font-weight: bold;
 `;
 
