@@ -34,6 +34,8 @@ export const Title = styled.text`
 export const TextContent = styled.div`
   margin: 100px;
   margin-top: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
