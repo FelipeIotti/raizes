@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const ContainerImage = styled.div`
   flex: 1;
-  margin-top: -300px;
+  margin-top: -500px;
   margin-bottom: -300px;
 
   height: 100vh;

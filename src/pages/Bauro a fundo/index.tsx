@@ -47,7 +47,7 @@ export function BauruAFundo() {
           <ContentVideoText>
             <ContentVideo>
               <iframe
-                width="460"
+                width="400"
                 height="315"
                 src="https://www.youtube.com/embed/R-rMXgr7IB4?si=4uKJQZL6pNCnXGQo"
                 title="YouTube video player"
@@ -91,7 +91,7 @@ export function BauruAFundo() {
             </ContentText>
             <ContentVideo>
               <iframe
-                width="460"
+                width="400"
                 height="315"
                 src="https://www.youtube.com/embed/P7N2hYOuvjM?si=Mqtau0syiBn20K1j"
                 title="YouTube video player"

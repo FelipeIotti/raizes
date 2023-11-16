@@ -41,7 +41,7 @@ export const TextContent = styled.div`
   margin: 100px;
   margin-right: 150px;
   margin-left: 150px;
-  margin-top: 140px;
+  margin-top: 0px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
@@ -129,7 +129,7 @@ export const ContentImageText = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 40px;
 `;
 
 export const Logo = styled.img`

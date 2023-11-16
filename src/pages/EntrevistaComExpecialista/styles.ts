@@ -5,7 +5,6 @@ export const Container = styled.div`
   width: 100vw;
   height: 100%;
   background-color: #ebd7ce;
-  padding-bottom: 80px;
 `;
 
 export const Title = styled.text`
@@ -40,7 +39,6 @@ export const TextContent = styled.div`
   margin-right: 150px;
   margin-left: 150px;
   margin-top: 140px;
-  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
 `;
@@ -119,7 +117,6 @@ export const Box = styled.div`
   padding: 25px;
   margin: 120px;
   margin-top: 40px;
-  margin-bottom: 40px;
 `;
 
 export const ContentImageText = styled.div`

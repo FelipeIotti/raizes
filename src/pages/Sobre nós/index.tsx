@@ -1,9 +1,27 @@
-import { Container } from "./styles";
+import { useRef } from "react";
+import { Container, Space, Text, TextContent } from "./styles";
 
 export function SobreNos() {
+  const sobreNosRef = useRef(null);
   return (
-    <Container>
-      <h1>Sobre nós</h1>
-    </Container>
+    <>
+      <Space id="sobreNos" ref={sobreNosRef} />
+
+      <Container>
+        <TextContent>
+          <Text>
+            Reportagem, produção, roteiro e direção: Giullia Colombo e Luciana
+            <br />
+            Saravia Orientação: Francisco Rolfsen Belda
+            <br />
+            Edição de vídeo: Gabriela Tiemi
+            <br />
+            Site: Felipe Iotti
+            <br />
+            Projeto gráfico: Juliana Bueno e Daniel Coutinho
+          </Text>
+        </TextContent>
+      </Container>
+    </>
   );
 }
