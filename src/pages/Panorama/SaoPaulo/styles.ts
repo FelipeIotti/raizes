@@ -52,8 +52,8 @@ export const Text = styled.text`
 `;
 
 export const LegendContent = styled.div`
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 `;
 export const Legend = styled.text`
   color: #000;
