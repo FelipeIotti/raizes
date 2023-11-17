@@ -6,14 +6,13 @@ export const Container = styled.div`
   height: 15vh;
 `;
 export const Space = styled.div`
-  height: vh;
+  height: 1vh;
 `;
 
 export const TextContent = styled.div`
   margin-right: 150px;
   margin-left: 150px;
-  padding-top: 40px;
-  margin-bottom: 60px;
+  padding-top: 25px;
 
   display: flex;
   flex-direction: column;
