@@ -20,6 +20,8 @@ export function SobreNos() {
             Site: Felipe Iotti
             <br />
             Projeto gráfico: Juliana Bueno e Daniel Coutinho
+            <br />
+            <br />
           </Text>
         </TextContent>
       </Container>
