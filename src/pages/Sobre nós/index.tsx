@@ -11,8 +11,9 @@ export function SobreNos() {
         <TextContent>
           <Text>
             Reportagem, produção, roteiro e direção: Giullia Colombo e Luciana
+            Saravia
             <br />
-            Saravia Orientação: Francisco Rolfsen Belda
+            Orientação: Francisco Rolfsen Belda
             <br />
             Edição de vídeo: Gabriela Tiemi
             <br />
