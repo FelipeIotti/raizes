@@ -83,21 +83,6 @@ export function Brasil() {
             continuamente.
           </Text>
 
-          <Text>
-            <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            Aos brasileiros mais atentos ao contexto político e social da
-            América do Sul, não é surpresa que a diversidade de sotaques
-            espanhóis tenha aumentado de maneira exponencial. Só os
-            venezuelanos, por exemplo, correspondem à metade do total de
-            imigrantes que estão hoje no Brasil, segundo a Polícia Federal (PF).
-            Esse fluxo, intensificado a partir de 2014, é um retrato típico da
-            imigração na porção sul do continente americano.
-          </Text>
-
           <Eye>
             Dos 897.214 hispano-americanos,
             <br />
