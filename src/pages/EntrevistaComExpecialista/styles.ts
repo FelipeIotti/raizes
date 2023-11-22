@@ -62,9 +62,9 @@ export const ImageContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-bottom: 40px;
-  margin-top: 60px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 `;
 
 export const Image = styled.img`
@@ -76,7 +76,9 @@ export const Image2 = styled.img`
   margin-top: -27%;
 `;
 export const Image3 = styled.img`
-  max-width: 45%;
+  flex: 1;
+  display: flex;
+  width: 100%;
 `;
 
 export const Eye = styled.text`
@@ -143,4 +145,23 @@ export const PizzaImagesContainer = styled.div`
   justify-content: space-around;
   margin-top: 40px;
   margin-bottom: 20px;
+`;
+export const LegendData = styled.text`
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.6;
+  font-style: italic;
+  margin-top: 4px;
+  margin-right: 15%;
+  margin-left: 15%;
+`;
+
+export const LegendDataPizza = styled.text`
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.6;
+  font-style: italic;
+  margin-top: 4px;
 `;

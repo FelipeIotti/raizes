@@ -7,6 +7,8 @@ import {
   Image2,
   Image3,
   ImageContent,
+  LegendData,
+  LegendDataPizza,
   PizzaImagesContainer,
   Question,
   SubTitle,
@@ -359,8 +361,18 @@ export function EntrevistaComExpecialista() {
           relação à atratividade.
         </Text>
         <PizzaImagesContainer>
-          <Image3 src={graficoPizza} alt="graficoPizza1" />
-          <Image3 src={graficoPizza1} alt="graficoPizza2" />
+          <ImageContent>
+            <Image3 src={graficoPizza} alt="graficoPizza1" />
+            <LegendDataPizza>
+              Fonte: Sismigra / Ministério da Justiça e Segurança Pública
+            </LegendDataPizza>
+          </ImageContent>
+          <ImageContent>
+            <Image3 src={graficoPizza1} alt="graficoPizza2" />
+            <LegendDataPizza>
+              Fonte: Sismigra / Ministério da Justiça e Segurança Pública
+            </LegendDataPizza>
+          </ImageContent>
         </PizzaImagesContainer>
         <Question>
           <br />O que está igual e o que está diferente entre as ondas
@@ -445,6 +457,9 @@ export function EntrevistaComExpecialista() {
         </Text>
         <ImageContent>
           <Image src={grafico5} alt="grafico5" />
+          <LegendData>
+            Fonte: Sismigra / Ministério da Justiça e Segurança Pública
+          </LegendData>
         </ImageContent>
         <Question>
           <br />
@@ -540,7 +555,7 @@ export function EntrevistaComExpecialista() {
           melhorar.
         </Text>
         <Box>
-          <TextN>Entrevistado | José Geraldo Poker, XX anos</TextN>
+          <TextN>Entrevistado | José Geraldo Poker</TextN>
           <Text>
             <br />
             <br />

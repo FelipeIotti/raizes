@@ -66,6 +66,7 @@ export const ImageContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin-top: 40px;
 `;
 
@@ -128,4 +129,14 @@ export const ImageRight = styled.img`
 `;
 export const Space = styled.div`
   height: 9vh;
+`;
+export const LegendData = styled.text`
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.6;
+  font-style: italic;
+  margin-top: 4px;
+  margin-right: 15%;
+  margin-left: 15%;
 `;

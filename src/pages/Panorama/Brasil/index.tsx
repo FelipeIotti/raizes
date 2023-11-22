@@ -55,9 +55,7 @@ export function Brasil() {
           <ImageContent>
             <Image src={grafico1} alt="gráfico1" />
             <LegendData>
-              Fonte: Os 10 países com o maior número de imigrantes em São Paulo
-              em outubro de 2023 | Sismigra/ Ministério da Justiça e Segurança
-              Pública
+              Fonte: Sismigra / Ministério da Justiça e Segurança Pública
             </LegendData>
           </ImageContent>
 
@@ -143,9 +141,7 @@ export function Brasil() {
           <ImageContent>
             <Image src={grafico2} alt="gráfico2" />
             <LegendData>
-              Fonte: Os 10 países com o maior número de imigrantes em Bauru em
-              outubro de 2023 | Sismigra/ Ministério da Justiça e Segurança
-              Pública
+              Fonte: Reprodução / Arquivo Público do Estado de São Paulo
             </LegendData>
           </ImageContent>
 
@@ -279,8 +275,7 @@ export function Brasil() {
           <ImageContent>
             <Image src={grafico3} alt="gráfico3" />
             <LegendData>
-              Fonte: Registro de entradas de imigrantes em Bauru de 2019 a 2023|
-              Sismigra/ Ministério da Justiça e Segurança Pública
+              Fonte: Sismigra / Ministério da Justiça e Segurança Pública
             </LegendData>
           </ImageContent>
         </TextContent>

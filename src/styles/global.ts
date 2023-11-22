@@ -5,15 +5,16 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Oculta a barra de rolagem vertical, mas mantém a funcionalidade */
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */
+    
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
     
   }
 
   *::-webkit-scrollbar {
-    display: none; /* Remove a barra de rolagem no Chrome, Safari, Edge */
+    display: none; 
   }
+  
 
   body{
     background: #EBE6DA;
@@ -27,4 +28,9 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 100;
     font-size: 1rem;
   }
+
+  .custom-carousel .control-arrow {
+  width: auto;
+  height: auto;
+}
 `;

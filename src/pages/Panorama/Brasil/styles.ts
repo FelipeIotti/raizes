@@ -69,6 +69,7 @@ export const LegendData = styled.text`
   font-weight: normal;
   opacity: 0.6;
   font-style: italic;
+  margin-top: 4px;
   margin-right: 15%;
   margin-left: 15%;
 `;

@@ -6,6 +6,7 @@ import {
   ImageContent,
   ImageLeft,
   ImageRight,
+  LegendData,
   Space,
   SubTitle,
   Text,
@@ -80,6 +81,9 @@ export function Bauru() {
 
           <ImageContent>
             <Image src={grafico4} alt="gráfico4" />
+            <LegendData>
+              Fonte: Sismigra / Ministério da Justiça e Segurança Pública
+            </LegendData>
           </ImageContent>
 
           <Text>

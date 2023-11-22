@@ -12,6 +12,7 @@ import {
   ImageContent,
   ImageLeft,
   ImageRight,
+  LegendData,
   Logo,
   Space,
   SubTitle,
@@ -172,6 +173,9 @@ export function BauruAFundo() {
 
           <ImageContent>
             <Image src={grafico7} alt="grafico7" />
+            <LegendData>
+              Fonte: Sismigra / Ministério da Justiça e Segurança Pública
+            </LegendData>
           </ImageContent>
           <Text>
             <br />
@@ -216,6 +220,9 @@ export function BauruAFundo() {
 
           <ImageContent>
             <Image src={grafico8} alt="grafico8" />
+            <LegendData>
+              Fonte: Sismigra / Ministério da Justiça e Segurança Pública
+            </LegendData>
           </ImageContent>
 
           <Text>
