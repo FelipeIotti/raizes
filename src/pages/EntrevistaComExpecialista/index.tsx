@@ -21,8 +21,8 @@ import {
 
 import dividerHispano from "../../assets/dividerHispano.png";
 import dividerAzulPreto from "../../assets/dividerazulpreto.png";
-import graficoPizza from "../../assets/grafico5.png";
-import graficoPizza1 from "../../assets/grafico6.png";
+import graficoPizza from "../../assets/grafico5.svg";
+import graficoPizza1 from "../../assets/grafico6.svg";
 import tabela from "../../assets/tabela.png";
 
 export function EntrevistaComExpecialista() {

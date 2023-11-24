@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   flex: 1;
   background: #cf9456;
-  height: 15vh;
+  height: 18vh;
 `;
 export const Space = styled.div`
   height: 1vh;

@@ -65,6 +65,7 @@ export const ImageContent = styled.div`
   flex-direction: column;
   margin: 0;
   padding: 0;
+  margin-top: 15px;
 `;
 
 export const Image = styled.img`
