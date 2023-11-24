@@ -22,10 +22,8 @@ import {
 import dividerHispano from "../../assets/dividerHispano.png";
 import dividerAzulPreto from "../../assets/dividerazulpreto.png";
 import graficoPizza from "../../assets/grafico5.png";
-import graficoPizza1 from "../../assets/graficoPizza1.svg";
+import graficoPizza1 from "../../assets/grafico6.png";
 import tabela from "../../assets/tabela.png";
-
-import grafico5 from "../../assets/grafico5.svg";
 
 export function EntrevistaComExpecialista() {
   const entrevistaComExpecialistaRef = useRef(null);
@@ -455,12 +453,7 @@ export function EntrevistaComExpecialista() {
           lugares de origem. É isso que diferencia a situação dos imigrantes
           aqui em Marília.
         </Text>
-        <ImageContent>
-          <Image src={grafico5} alt="grafico5" />
-          <LegendData>
-            Fonte: Sismigra / Ministério da Justiça e Segurança Pública
-          </LegendData>
-        </ImageContent>
+
         <Question>
           <br />
           Como elas são recebidas no interior paulista, no caso, Marília?
@@ -478,7 +471,7 @@ export function EntrevistaComExpecialista() {
           de alojamento de andarilhos, mas isso tudo ainda é muito deficiente em
           Marília, como no resto do Brasil.
         </Text>
-        b bmport grafico5 from "../../assets/grafico5.svg";
+
         <Text>
           <br />
           <>&nbsp;</>

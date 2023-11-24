@@ -23,7 +23,7 @@ import {
 import divider1 from "../../assets/divider1.png";
 import logoImg from "../../assets/logo.png";
 import grafico8 from "../../assets/grafico8.svg";
-import grafico7 from "../../assets/grafico7.svg";
+import grafico7 from "../../assets/grafico8.png";
 import esquerda from "../../assets/esquerda.png";
 import direita from "../../assets/direita.png";
 import { Carrossel } from "../../components/Carrossel";
