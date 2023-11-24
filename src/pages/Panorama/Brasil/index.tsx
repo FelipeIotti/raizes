@@ -14,9 +14,9 @@ import {
   Space,
   LegendData,
 } from "./styles";
-import grafico1 from "../../../assets/grafico1.svg";
+import grafico1 from "../../../assets/grafico1.png";
 import grafico2 from "../../../assets/grafico2.png";
-import grafico3 from "../../../assets/grafico3.svg";
+import grafico3 from "../../../assets/grafico3.png";
 import divider1 from "../../../assets/divider1.png";
 
 export function Brasil() {

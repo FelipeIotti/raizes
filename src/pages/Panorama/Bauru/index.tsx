@@ -14,7 +14,7 @@ import {
   Title,
 } from "./styles";
 
-import grafico4 from "../../../assets/grafico4.svg";
+import grafico4 from "../../../assets/grafico4.png";
 import esquerda from "../../../assets/esquerda.png";
 import direita from "../../../assets/direita.png";
 

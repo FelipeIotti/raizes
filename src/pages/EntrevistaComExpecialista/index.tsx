@@ -21,8 +21,10 @@ import {
 
 import dividerHispano from "../../assets/dividerHispano.png";
 import dividerAzulPreto from "../../assets/dividerazulpreto.png";
-import graficoPizza from "../../assets/graficoPizza.svg";
+import graficoPizza from "../../assets/grafico5.png";
 import graficoPizza1 from "../../assets/graficoPizza1.svg";
+import tabela from "../../assets/tabela.png";
+
 import grafico5 from "../../assets/grafico5.svg";
 
 export function EntrevistaComExpecialista() {
@@ -53,7 +55,6 @@ export function EntrevistaComExpecialista() {
           São Paulo de 2022 para 2023. Os dados do SISMIGRA, mostram que os
           venezuelanos são os que mais procuram o Brasil.
         </Text>
-
         <Text>
           <br />
           <>&nbsp;</>
@@ -69,7 +70,6 @@ export function EntrevistaComExpecialista() {
           saldo positivo no cálculo estratégico de imigrantes e refugiados na
           escolha do destino.
         </Text>
-
         <Text>
           <br />
           <>&nbsp;</>
@@ -83,7 +83,6 @@ export function EntrevistaComExpecialista() {
           (PF), órgão responsável por regulamentar o registro dessa população,
           não atua no acolhimento e inclusão.
         </Text>
-
         <Text>
           <br />
           <>&nbsp;</>
@@ -97,7 +96,6 @@ export function EntrevistaComExpecialista() {
           muitas vezes sem fiscalização ou treinamento e com agendas
           particulares.
         </Text>
-
         <Text>
           <br />
           <>&nbsp;</>
@@ -110,7 +108,6 @@ export function EntrevistaComExpecialista() {
           imigrantes e refugiados para facilitar a adaptação cultural e inclusão
           na sociedade local.
         </Text>
-
         <Text>
           <br />
           <>&nbsp;</>
@@ -138,7 +135,6 @@ export function EntrevistaComExpecialista() {
         <ImageContent>
           <Image src={dividerAzulPreto} alt="divider" />
         </ImageContent>
-
         <SubTitle>Entrevista na íntegra</SubTitle>
         <Question>
           <br />
@@ -156,7 +152,6 @@ export function EntrevistaComExpecialista() {
           hispânicos para o Brasil. Varia muito de cada região e das causas que
           os provocam.
         </Text>
-
         <Text>
           <br />
           <>&nbsp;</>
@@ -191,6 +186,12 @@ export function EntrevistaComExpecialista() {
           Ucrânia hoje em dia. Ou às vezes, em situações não tão desesperadoras,
           vamos dizer, as pessoas decidem sair.
         </Text>
+        <ImageContent>
+          <Image src={tabela} alt="divider" />
+          <LegendData>
+            Fonte: Sismigra / Ministério da Justiça e Segurança Pública
+          </LegendData>
+        </ImageContent>
         <Question>
           <br />
           Como o Brasil se compara ao resto do continente em relação ao acesso
@@ -208,7 +209,6 @@ export function EntrevistaComExpecialista() {
           para o Brasil é recebido pela PF (Polícia Federal) e a partir desse
           momento está sujeito à própria sorte.
         </Text>
-
         <Text>
           <br />
           <>&nbsp;</>
@@ -478,6 +478,7 @@ export function EntrevistaComExpecialista() {
           de alojamento de andarilhos, mas isso tudo ainda é muito deficiente em
           Marília, como no resto do Brasil.
         </Text>
+        b bmport grafico5 from "../../assets/grafico5.svg";
         <Text>
           <br />
           <>&nbsp;</>
@@ -520,7 +521,6 @@ export function EntrevistaComExpecialista() {
           pessoas não podem ficar em situação de rua enquanto aprendem a falar
           português.
         </Text>
-
         <Eye>
           "Quando falo de acolhimento e inclusão, falo inclusive nesse
           empoderamento político, que é eles saberem quais são os direitos deles
