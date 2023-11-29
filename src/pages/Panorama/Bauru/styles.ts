@@ -71,7 +71,7 @@ export const ImageContent = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 70%;
+  width: 100%;
 `;
 
 export const Image2 = styled.img`

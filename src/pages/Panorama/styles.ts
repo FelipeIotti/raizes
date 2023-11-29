@@ -16,9 +16,9 @@ export const Title = styled.text`
   font-weight: bold;
 `;
 export const Text = styled.text`
-  margin-top: 20px;
+  margin-top: 30px;
   color: #000;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: normal;
 `;
 

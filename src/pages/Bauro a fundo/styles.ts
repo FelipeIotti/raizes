@@ -5,16 +5,16 @@ export const Container = styled.div`
   width: 100vw;
   height: 100%;
   padding-bottom: 80px;
+  margin-top: 60px;
 `;
 
 export const Title = styled.text`
-  flex: 1%;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 
   margin-bottom: 10px;
-  margin-left: 80px;
 
   color: #000;
 
@@ -72,7 +72,7 @@ export const ImageContent = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 70%;
+  width: 100%;
 `;
 
 export const Image2 = styled.img`
@@ -160,7 +160,7 @@ export const ContentTitle = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 `;
 
 export const ContentVideoText = styled.div`
@@ -180,7 +180,15 @@ export const ContentText = styled.div`
   margin-right: 20px;
 `;
 export const Space = styled.div`
-  height: 9vh;
+  flex: 1;
+  height: 5vh;
+  margin-top: -140px;
+`;
+export const Space2 = styled.div`
+  height: 3vh;
+`;
+export const Space3 = styled.div`
+  height: 3vh;
 `;
 export const LegendData = styled.text`
   color: #000;
@@ -191,4 +199,12 @@ export const LegendData = styled.text`
   margin-top: 4px;
   margin-right: 15%;
   margin-left: 15%;
+`;
+
+export const ContainerTitle = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 80px;
 `;

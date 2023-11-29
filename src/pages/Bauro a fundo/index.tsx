@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import {
   Container,
+  ContainerTitle,
   ContentImageText,
   ContentText,
   ContentTitle,
@@ -15,6 +16,7 @@ import {
   LegendData,
   Logo,
   Space,
+  Space2,
   SubTitle,
   Text,
   TextContent,
@@ -30,6 +32,8 @@ import { Carrossel } from "../../components/Carrossel";
 
 export function BauruAFundo() {
   const bauruAFundoRef = useRef(null);
+  const bauruAFundoDocumentarioRef = useRef(null);
+  const bauruAFundoGaleriaRef = useRef(null);
   return (
     <>
       <Space id="bauruAFundo" ref={bauruAFundoRef} />
@@ -37,14 +41,27 @@ export function BauruAFundo() {
         <TextContent>
           <ContentTitle>
             <Logo src={logoImg} alt="logo" />
-
-            <Title>
-              Imigrantes <br />
-              hispano-americanos
-              <br /> em Bauru
-            </Title>
+            <ContainerTitle>
+              <Title>
+                Imigrantes <br />
+                hispano-americanos
+                <br /> em Bauru
+              </Title>
+              <Text>
+                A imigracao é subjetiva. Cada história conhecida mostra quão
+                diferentes as experiências migratórias são, até mesmo em uma
+                cidade de 379 mil habitantes no interior de São Paulo, como
+                Bauru. Acompanhamos a rotina de quatro imigrantes
+                hispano-americanos na cidade e registramos suas histórias em
+                episódios de documentário.
+                <br /> <br /> Confira:
+              </Text>
+            </ContainerTitle>
           </ContentTitle>
-
+          <Space2
+            id="bauruAFundoDocumentario"
+            ref={bauruAFundoDocumentarioRef}
+          />
           <ContentVideoText>
             <ContentVideo>
               <iframe
@@ -59,10 +76,6 @@ export function BauruAFundo() {
             </ContentVideo>
             <ContentText>
               <Text>
-                <>&nbsp;</>
-                <>&nbsp;</>
-                <>&nbsp;</>
-                <>&nbsp;</>
                 Daniel Sebastián Flores Trujillo, de 26 anos, nasceu em Quito,
                 capital do Equador. Ele é apaixonado por futebol, assim, quando
                 aos 21 anos perguntaram para ele em qual país ele gostaria de
@@ -76,10 +89,6 @@ export function BauruAFundo() {
           <ContentVideoText>
             <ContentText>
               <Text>
-                <>&nbsp;</>
-                <>&nbsp;</>
-                <>&nbsp;</>
-                <>&nbsp;</>
                 Com as malas feitas às pressas e uma vida toda deixada para
                 trás, Sulleydis Aurora Barceló e Júlio Ovídio Aguilera passaram
                 a fronteira entre a Venezuela e o Brasil. Tendo passagens por
@@ -142,10 +151,6 @@ export function BauruAFundo() {
           </ContentImageText>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Ao ser questionada sobre o que motiva essas pessoas a ficarem na
             cidade, Aline Plácido, fundadora da ONG Apoio para recomeçar, ri e
             diz “Por que não ficar?”. Para a pedagoga, a estrutura de serviços
@@ -156,10 +161,6 @@ export function BauruAFundo() {
           </Text>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Por mais que a cidade comporte novos moradores, o inchaço no
             município e as condições dos recém chegados acentuou a necessidade
             da aplicação de políticas públicas de atendimento, acolhimento e
@@ -179,10 +180,6 @@ export function BauruAFundo() {
           </ImageContent>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Aline iniciou seu trabalho voluntário com a população imigrante em
             2019, quando ingressou no instituto Caritas, dando aulas de Língua
             Portuguesa para três famílias em Bauru. Com a chegada da pandemia e
@@ -193,10 +190,6 @@ export function BauruAFundo() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             “Quando você ensina o português para o estrangeiro, você deixa de
             ser apenas um professor, você acaba fazendo outros acolhimentos. Eu
             tive que ir além das aulas de portugês, tive que encaminhar para
@@ -207,10 +200,6 @@ export function BauruAFundo() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Venezuelanos, angolanos e afegãos estão entre as nacionalidades mais
             atendidas atualmente, mas Aline destaca que a cidade tem um grande
             fluxo migratório temporário de países como o Equador e a República
@@ -226,30 +215,23 @@ export function BauruAFundo() {
           </ImageContent>
 
           <Text>
-            <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>A organização presta auxílio para a obtenção de
-            documentação, encaminhamento a serviços essenciais, como os de
-            saúde, educação e moradia, e também realiza o acompanhamento social
-            dessas famílias. A organização também oferece aulas da “língua de
-            acolhimento”, termo que Aline usa para denominar o português, idioma
-            que imigrantes precisam utilizar para serem incorporados à
-            sociedade. As aulas, que acontecem duas vezes por semana, abordam o
-            ensino básico da língua, uso prático do idioma e conceitos de
-            legislação trabalhista e direitos do imigrante.
+            <br />A organização presta auxílio para a obtenção de documentação,
+            encaminhamento a serviços essenciais, como os de saúde, educação e
+            moradia, e também realiza o acompanhamento social dessas famílias. A
+            organização também oferece aulas da “língua de acolhimento”, termo
+            que Aline usa para denominar o português, idioma que imigrantes
+            precisam utilizar para serem incorporados à sociedade. As aulas, que
+            acontecem duas vezes por semana, abordam o ensino básico da língua,
+            uso prático do idioma e conceitos de legislação trabalhista e
+            direitos do imigrante.
           </Text>
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>Aline, que trabalha com o acompanhamento dessa população
-            há cinco anos, ressalta que as variáveis que colocam imigrantes em
-            situações de vulnerabilidade são variadas e que cada família tem
-            suas particularidades. Ela também diz que há uma predominância de
+            Aline, que trabalha com o acompanhamento dessa população há cinco
+            anos, ressalta que as variáveis que colocam imigrantes em situações
+            de vulnerabilidade são variadas e que cada família tem suas
+            particularidades. Ela também diz que há uma predominância de
             hispano-americanos na cidade. De todos os imigrantes que estiveram
             na cidade até outubro de 2023, 97% são hispano-americanos.
           </Text>
@@ -299,10 +281,6 @@ export function BauruAFundo() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Oportunidades de empreendedorismo e prestação de serviços são
             características da economia do Estado de São Paulo e propício para
             imigrantes, segundo o professor José Geraldo Poker. Aline também
@@ -315,22 +293,14 @@ export function BauruAFundo() {
             atendeu 55 pessoas.
           </Text>
           <Text>
-            <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>A Sedecon (Secretaria de Desenvolvimento Econômico,
-            Turismo e Renda de Bauru) realizou dois eventos de integração e
-            documentação para imigrantes. A 2ª edição do Gera Bauru contou com a
-            participação da OAB (Ordem dos Advogados do Brasil), empresas de
-            recrutamento e a Apoio para Recomeçar. O evento atendeu 55 pessoas.
+            <br />A Sedecon (Secretaria de Desenvolvimento Econômico, Turismo e
+            Renda de Bauru) realizou dois eventos de integração e documentação
+            para imigrantes. A 2ª edição do Gera Bauru contou com a participação
+            da OAB (Ordem dos Advogados do Brasil), empresas de recrutamento e a
+            Apoio para Recomeçar. O evento atendeu 55 pessoas.
           </Text>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             De acordo com o projeto Oportunidades - Integração no Brasil, da
             Agência da ONU para migrações (OIM) entre dezembro e julho de 2023,
             5885 refugiados ou imigrantes em situação de vulnerabilidade
@@ -339,10 +309,6 @@ export function BauruAFundo() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Desse total, 4030 foram contratados. Apesar de 79% das pessoas
             treinadas serem mulheres, 59% dos contratados eram homens. A mesma
             discrepância se repete para cursos profissionalizantes, com 58% de
@@ -351,106 +317,78 @@ export function BauruAFundo() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>Além de hábitos e costumes culturais que são deixados
-            para trás no processo da imigração, para exercer atividades
-            econômicas e poder se sustentar, muitos imigrantes deixam para trás
-            até mesmo suas carreiras. A legislação exige que diplomas
-            profissionais sejam validados em instituições de ensino superior
-            brasileiras. Dependendo do grau de instrução, o processo pode custar
-            até R$3.000.
+            Além de hábitos e costumes culturais que são deixados para trás no
+            processo da imigração, para exercer atividades econômicas e poder se
+            sustentar, muitos imigrantes deixam para trás até mesmo suas
+            carreiras. A legislação exige que diplomas profissionais sejam
+            validados em instituições de ensino superior brasileiras. Dependendo
+            do grau de instrução, o processo pode custar até R$3.000.
           </Text>
-          <Text>
+          <Text id="bauruAFundoGaleria" ref={bauruAFundoGaleriaRef}>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>Os altos custos e as condições de urgência que muitos
-            estrangeiros têm para tirar seu sustento fazem com que eles optem
-            por realizar atividades diferentes daquelas que tinha no país de
-            origem, muitas vezes com salários substancialmente menores por não
-            requererem ensino superior. “Eu nunca me imaginei, a este ponto da
-            minha vida, ter que vender doces”, disse Sulleydis, que é professora
-            do ensino fundamental aposentada.
+            Os altos custos e as condições de urgência que muitos estrangeiros
+            têm para tirar seu sustento fazem com que eles optem por realizar
+            atividades diferentes daquelas que tinha no país de origem, muitas
+            vezes com salários substancialmente menores por não requererem
+            ensino superior. “Eu nunca me imaginei, a este ponto da minha vida,
+            ter que vender doces”, disse Sulleydis, que é professora do ensino
+            fundamental aposentada.
           </Text>
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>Júlio Aguilera é confeiteiro venezuelano que, junto à
-            esposa Sulleydis e a filha do casal, comercializam massas da
-            pâtisserie francesa e também pratos típicos do seu país nas feiras
-            itinerantes da cidade. Além da barreira da língua, eles salientam
-            que tiveram que ultrapassar outro desafio: o paladar. “Nós tivemos
-            que mudar tudo. Adaptar nossos doces adicionando leite Ninho,
-            Nutella, brigadeiro, doce de leite. Além de colocar requeijão,
-            catupiry e calabresa nos salgados”, disse.
+            Júlio Aguilera é confeiteiro venezuelano que, junto à esposa
+            Sulleydis e a filha do casal, comercializam massas da pâtisserie
+            francesa e também pratos típicos do seu país nas feiras itinerantes
+            da cidade. Além da barreira da língua, eles salientam que tiveram
+            que ultrapassar outro desafio: o paladar. “Nós tivemos que mudar
+            tudo. Adaptar nossos doces adicionando leite Ninho, Nutella,
+            brigadeiro, doce de leite. Além de colocar requeijão, catupiry e
+            calabresa nos salgados”, disse.
           </Text>
 
           <Carrossel />
 
           <Text>
-            <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>O casal trabalha de 2ª feira a sábado na confecção e
-            venda da produção de massas. A cada dia da semana eles integram as
-            feiras que se deslocam pelas regiões da cidade. A entrada na lista
-            de feirantes não foi um processo fácil, mas burocrático e certamente
-            demorado. Ao chegarem à cidade no final de 2021, Júlio procurou a
-            organização das feiras para poder trabalhar, mas teve que esperar
-            até março de 2022 por falta de vagas.
+            <br />O casal trabalha de 2ª feira a sábado na confecção e venda da
+            produção de massas. A cada dia da semana eles integram as feiras que
+            se deslocam pelas regiões da cidade. A entrada na lista de feirantes
+            não foi um processo fácil, mas burocrático e certamente demorado. Ao
+            chegarem à cidade no final de 2021, Júlio procurou a organização das
+            feiras para poder trabalhar, mas teve que esperar até março de 2022
+            por falta de vagas.
           </Text>
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>Uma vez presente nas feiras, a barraca do casal exibe com
-            orgulho os mais variados doces e empanadas todos os dias em suas
-            vitrines, com a receita adaptada para agradar o consumidor
-            bauruense, que também tem à disposição no local opções de comidas
-            mais familiares aos brasileiros, como pastéis e lanches.
+            Uma vez presente nas feiras, a barraca do casal exibe com orgulho os
+            mais variados doces e empanadas todos os dias em suas vitrines, com
+            a receita adaptada para agradar o consumidor bauruense, que também
+            tem à disposição no local opções de comidas mais familiares aos
+            brasileiros, como pastéis e lanches.
           </Text>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>No entanto, às 4ª feiras, as vendas se tornam um pouco
-            mais familiares para o casal.Nesse dia da semana, a feira é
-            realizada periodicamente no parque Vitória Régia, localizado à
-            frente do campus da USP e de outros centros de especialização na
-            área da saúde. Nesse local, a feira recebe a visita principalmente
-            de , professores e médicos – muitos deles hispano-americanos.
-            Somente nesse dia da semana, Sully e Júlio preparam e vendem arepas,
-            uma massa de farinha de milho pré-cozida e recheada de carnes e
-            molhos temperados, um prato típico de países como Bolívia, Colômbia,
-            Panamá e Venezuela e muito conhecido pelo continente.
+            No entanto, às 4ª feiras, as vendas se tornam um pouco mais
+            familiares para o casal.Nesse dia da semana, a feira é realizada
+            periodicamente no parque Vitória Régia, localizado à frente do
+            campus da USP e de outros centros de especialização na área da
+            saúde. Nesse local, a feira recebe a visita principalmente de ,
+            professores e médicos – muitos deles hispano-americanos. Somente
+            nesse dia da semana, Sully e Júlio preparam e vendem arepas, uma
+            massa de farinha de milho pré-cozida e recheada de carnes e molhos
+            temperados, um prato típico de países como Bolívia, Colômbia, Panamá
+            e Venezuela e muito conhecido pelo continente.
+          </Text>
+          <Text>
+            <br />O local se torna uma feira multicultural, cheia de sotaques
+            castelhanos dos mais variados e também repleta de motivos para
+            estarem em Bauru. A barraca venezuelana chega a esgotar seu estoque
+            de arepas, além de doces que essas pessoas compram e levam consigo
+            como uma lembrança de seu idioma e seus países.
           </Text>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>O local se torna uma feira multicultural, cheia de
-            sotaques castelhanos dos mais variados e também repleta de motivos
-            para estarem em Bauru. A barraca venezuelana chega a esgotar seu
-            estoque de arepas, além de doces que essas pessoas compram e levam
-            consigo como uma lembrança de seu idioma e seus países.
-          </Text>
-          <Text>
-            <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Aos poucos essa população se integra e se acolhe entre si no idioma
             e semelhanças gastronômicas das suas culturas. “Num desses dias uma
             menina colombiana, que conheci grávida, trouxe a filha para me
@@ -463,11 +401,8 @@ export function BauruAFundo() {
           </Text>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>*Mariana e Fernanda são nomes fictícios dados às duas
-            entrevistadas, que preferiram não ter suas identidades publicadas
+            *Mariana e Fernanda são nomes fictícios dados às duas entrevistadas,
+            que preferiram não ter suas identidades publicadas
           </Text>
         </TextContent>
         <Image2 src={divider1} alt="divider1" />

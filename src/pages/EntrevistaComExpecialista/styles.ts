@@ -69,6 +69,9 @@ export const ImageContent = styled.div`
 `;
 
 export const Image = styled.img`
+  width: 100%;
+`;
+export const Image4 = styled.img`
   max-width: 70%;
 `;
 

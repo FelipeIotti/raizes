@@ -6,6 +6,7 @@ export const Container = styled.div`
   flex: 1;
   width: 100%;
   height: 100%;
+  margin-top: 200px;
 `;
 
 export const ContainerImage = styled.div`
@@ -85,7 +86,7 @@ export const ImageContent = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 70%;
+  width: 100%;
 `;
 
 export const Image2 = styled.img`
@@ -124,5 +125,6 @@ export const Box = styled.div`
 `;
 
 export const Space = styled.div`
-  height: -10vh;
+  flex: 1;
+  margin-top: -7vh;
 `;

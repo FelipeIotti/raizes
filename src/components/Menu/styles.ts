@@ -66,12 +66,42 @@ export const DropDownSelect = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 74px;
+  margin-top: 86px;
+  height: 120px;
 
   justify-content: flex-start;
 
   margin-bottom: 42px;
   background-color: #b72104;
+  a {
+    padding: 4px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+
+    &:hover {
+      outline: 0;
+      box-shadow: 000 2px #000;
+    }
+  }
+`;
+
+export const DropDownContainer2 = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const DropDownSelect2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 56px;
+
+  justify-content: flex-start;
+
+  margin-bottom: 42px;
+  background-color: #b72104;
+  height: 90px;
   a {
     padding: 4px;
     color: #fff;

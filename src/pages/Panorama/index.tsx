@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-import { Container, Space, Text, Title } from "./styles";
+import { Container, Space, Text } from "./styles";
 import { TextContent } from "./Bauru/styles";
 
 export function Panorama() {
@@ -10,7 +10,6 @@ export function Panorama() {
       <Space id="panorama" ref={panoramaRef} />
       <Container>
         <TextContent>
-          <Title>Introdução</Title>
           <Text>
             Aos brasileiros mais atentos ao contexto político e social da
             América do Sul, não é surpresa que a diversidade de sotaques

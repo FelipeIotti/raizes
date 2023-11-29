@@ -5,7 +5,9 @@ import {
   Container,
   Content,
   DropDownContainer,
+  DropDownContainer2,
   DropDownSelect,
+  DropDownSelect2,
   Text,
 } from "./styles";
 
@@ -13,21 +15,30 @@ export function Menu() {
   const navigate = useNavigate();
 
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const dropdownRef2 = useRef<HTMLDivElement>(null);
   const panoramaRef = useRef<HTMLDivElement>(null);
   const brasilRef = useRef<HTMLDivElement>(null);
   const saoPauloRef = useRef<HTMLDivElement>(null);
   const bauruRef = useRef<HTMLDivElement>(null);
   const entrevistaComEspecialistaRef = useRef<HTMLDivElement>(null);
   const bauruAFundoRef = useRef<HTMLDivElement>(null);
+  const bauruAFundoDocumentarioRef = useRef<HTMLDivElement>(null);
+  const bauruAFundoGaleriaRef = useRef<HTMLDivElement>(null);
   const sobreNosRef = useRef<HTMLDivElement>(null);
 
   const [isMenuDropDownOpen, setMenuDropDownOpen] = useState(false);
+  const [isMenuDropDownOpen2, setMenuDropDownOpen2] = useState(false);
 
   const closeHoverMenu = () => {
     setMenuDropDownOpen(false);
   };
 
+  const closeHoverMenu2 = () => {
+    setMenuDropDownOpen2(false);
+  };
+
   useOnHoverOutside(dropdownRef, closeHoverMenu);
+  useOnHoverOutside(dropdownRef2, closeHoverMenu2);
 
   const scrollToRef = (ref: React.RefObject<HTMLDivElement>) => {
     if (ref.current) {
@@ -112,7 +123,42 @@ export function Menu() {
             onClick={() => handleNavigation(bauruAFundoRef, "bauruAFundo")}
             data-id="bauruAFundo"
           >
-            <Text>Bauru a fundo</Text>
+            <DropDownContainer2
+              ref={dropdownRef2}
+              onMouseOver={() => setMenuDropDownOpen2(true)}
+            >
+              <Text>Bauru a fundo</Text>
+              {isMenuDropDownOpen2 && (
+                <DropDownSelect2>
+                  <Text>Bauru a fundo</Text>
+
+                  <a
+                    href="/#bauruAFundoDocumentario"
+                    onClick={() =>
+                      handleNavigation(
+                        bauruAFundoDocumentarioRef,
+                        "bauruAFundoDocumentario"
+                      )
+                    }
+                    data-id="bauruAFundoDocumentario"
+                  >
+                    Documentário
+                  </a>
+                  <a
+                    href="/#bauruAFundoGaleria"
+                    onClick={() =>
+                      handleNavigation(
+                        bauruAFundoGaleriaRef,
+                        "bauruAFundoGaleria"
+                      )
+                    }
+                    data-id="bauruAFundoGaleria"
+                  >
+                    Galeria
+                  </a>
+                </DropDownSelect2>
+              )}
+            </DropDownContainer2>
           </a>
           <a
             href="/#sobreNos"

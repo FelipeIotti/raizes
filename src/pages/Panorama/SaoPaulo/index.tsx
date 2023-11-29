@@ -31,10 +31,6 @@ export function SaoPaulo() {
         <TextContent>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             No Estado de São Paulo, das 10 nacionalidades mais presentes no
             território em 2023, mantém-se a marca de 5 serem hispano-americanas.
             Contudo, os bolivianos - e não os venezuelanos -, dominam o recorte
@@ -45,10 +41,6 @@ export function SaoPaulo() {
 
           <Text>
             <br></br>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Assim como ocorreu no auge do ciclo econômico do café, entre o final
             do século XIX e o início do século XX, a cidade de São Paulo
             continua sendo um ímã para imigrantes. Oportunidades de trabalho,
@@ -59,10 +51,6 @@ export function SaoPaulo() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Fábio Pucci e Maura Véras, da PUC-SP, no artigo
             <>&nbsp;</>
             <a
@@ -81,10 +69,6 @@ export function SaoPaulo() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Mas, a nem-sempre-fácil-de-sobreviver cidade de São Paulo tem
             repelido esses grupos em direção ao interior paulista.
           </Text>

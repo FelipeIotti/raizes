@@ -6,6 +6,7 @@ import {
   Image,
   Image2,
   Image3,
+  Image4,
   ImageContent,
   LegendData,
   LegendDataPizza,
@@ -43,10 +44,6 @@ export function EntrevistaComExpecialista() {
           é efetiva
         </TitleUnderline>
         <Text>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           José Geraldo Poker, professor do departamento de Relações
           Internacionais da Unesp Marília, não se surpreende ao ver que houve um
           aumento de % na entrada de imigrantes hispano-americanos no Estado de
@@ -55,10 +52,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Para o sociólogo, os fluxos migratórios hispânicos na região sul do
           continente americano carecem de uma teoria geral que identifique
           padrões para as causas. No entanto, Poker identifica a busca por
@@ -70,10 +63,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Segundo o SISMIGRA o Estado de São Paulo registra 36,9% de todos os
           imigrantes que entraram no país seguindo a lógica do professor. Apesar
           das oportunidades de trabalho, Poker enfatiza que a legislação não é
@@ -83,10 +72,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Para ele, os poderes executivos municipais e estaduais não têm se
           comprometido com as necessidades dos imigrantes, o que causa um
           desequilíbrio de funções. Em vez disso, associações da sociedade civil
@@ -96,33 +81,21 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>Desde 2016 o professor coordena o Núcleo de Assessoria a
-          Imigrantes e Refugiados, um projeto de extensão desenvolvido pelo
-          PETRI-Unesp (Programa de Educação Tutorial de Relações
-          Internacionais), do campus de Marília. O projeto oferece assessoria a
-          imigrantes e refugiados para facilitar a adaptação cultural e inclusão
-          na sociedade local.
+          Desde 2016 o professor coordena o Núcleo de Assessoria a Imigrantes e
+          Refugiados, um projeto de extensão desenvolvido pelo PETRI-Unesp
+          (Programa de Educação Tutorial de Relações Internacionais), do campus
+          de Marília. O projeto oferece assessoria a imigrantes e refugiados
+          para facilitar a adaptação cultural e inclusão na sociedade local.
         </Text>
         <Text>
-          <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>O professor acredita que a alfabetização política sobre os
+          <br />O professor acredita que a alfabetização política sobre os
           direitos fundamentais dos cidadãos e imigrantes é o primeiro passo
           para que essa população tenha acesso a uma vida digna no Brasil,
           apesar da omissão do poder público.
         </Text>
         <Text>
-          <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>A partir do projeto, o pesquisador também desenvolveu uma
-          linha de pesquisa em parceria com pesquisadores da UNILA (Universidade
+          <br />A partir do projeto, o pesquisador também desenvolveu uma linha
+          de pesquisa em parceria com pesquisadores da UNILA (Universidade
           Federal da Integração Latino-Americana), da UFGD (Universidade Federal
           de Grande Dourados), da UNIOESTE (Universidade Estadual do Oeste do
           Paraná) e da UNISAGRADO (Centro Universitário Sagrado Coração), para
@@ -142,20 +115,12 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Não temos uma teoria geral a respeito dos fluxos migratórios
           hispânicos para o Brasil. Varia muito de cada região e das causas que
           os provocam.
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           No caso da Venezuela, por exemplo, o fluxo é recente, não há uma
           história longa de migração de venezuelanos para o Brasil. Diferente do
           caso de imigrações europeias para o Brasil –no caso de espanhóis,
@@ -163,21 +128,14 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>Por isso precisamos regionalizar para entender o que de
-          fato ocorre e observar os fatores. Fatores, como por exemplo guerras,
-          são diferentes de desastres climáticos. Embora possamos ter um
-          fundamento geral, que seria a busca por melhores condições de vida,
-          ele ainda varia por conta da subjetividade de cada imigrante.
+          Por isso precisamos regionalizar para entender o que de fato ocorre e
+          observar os fatores. Fatores, como por exemplo guerras, são diferentes
+          de desastres climáticos. Embora possamos ter um fundamento geral, que
+          seria a busca por melhores condições de vida, ele ainda varia por
+          conta da subjetividade de cada imigrante.
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Eu entendo que a imigração é um fenômeno extremamente complexo. Às
           vezes em meio a uma situação muito caótica a pessoa pode decidir
           permanecer [na região de origem], como seria o caso de Gaza e da
@@ -185,7 +143,7 @@ export function EntrevistaComExpecialista() {
           vamos dizer, as pessoas decidem sair.
         </Text>
         <ImageContent>
-          <Image src={tabela} alt="divider" />
+          <Image4 src={tabela} alt="divider" />
           <LegendData>
             Fonte: Sismigra / Ministério da Justiça e Segurança Pública
           </LegendData>
@@ -198,21 +156,14 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>Nossa legislação, nosso poder público e nossos direitos
-          fundamentais não seriam necessariamente um fator de atração,
-          justamente porque há dificuldades. O imigrante internacional que vem
-          para o Brasil é recebido pela PF (Polícia Federal) e a partir desse
-          momento está sujeito à própria sorte.
+          Nossa legislação, nosso poder público e nossos direitos fundamentais
+          não seriam necessariamente um fator de atração, justamente porque há
+          dificuldades. O imigrante internacional que vem para o Brasil é
+          recebido pela PF (Polícia Federal) e a partir desse momento está
+          sujeito à própria sorte.
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Ele precisa procurar um lugar onde há políticas públicas de
           acolhimento e inclusão. E não necessariamente ele tem essa informação,
           porque a PF não presta esse serviço, ela só dá um número a ele. O
@@ -221,10 +172,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Aqui no Brasil, temos uma ótima legislação, mas ela não é implementada
           pelos diversos níveis do poder público. O próprio imigrante não se
           entende como destinatário dessa legislação. O imigrante, então, fica
@@ -235,22 +182,14 @@ export function EntrevistaComExpecialista() {
           omissão do poder público.
         </Text>
         <Text>
-          <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>É muito complicado que as organizações, empresas e
-          associações ofereçam serviços públicos. Isso pode provocar uma
-          distorção, porque essas organizações podem ter interesses e
-          compromissos que não estão vinculadas ao interesse público.
+          <br />É muito complicado que as organizações, empresas e associações
+          ofereçam serviços públicos. Isso pode provocar uma distorção, porque
+          essas organizações podem ter interesses e compromissos que não estão
+          vinculadas ao interesse público.
         </Text>
         <Text>
-          <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>O segundo fator que fica condicionado a vinda do imigrante
-          para o Brasil é a vontade e disponibilidade política do poder público
+          <br />O segundo fator que fica condicionado a vinda do imigrante para
+          o Brasil é a vontade e disponibilidade política do poder público
           local. Se ele se dispuser a aplicar a lei e efetivar a legislação que
           nós temos, aí temos um trabalho melhor de acolhimento. Mas o fato é
           esse: políticas públicas precisam ser exercidas pelo poder público.
@@ -262,10 +201,6 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Se compararmos as economias da América do Sul, o Brasil é o lugar que
           tem a economia mais estável. Temos uma taxa de inflação e uma taxa de
           desemprego relativamente pequenas comparadas aos nossos vizinhos. Nós
@@ -273,20 +208,12 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Nesse sentido, a gente pode considerar que o Brasil atrai mais
           imigrantes em função dessas oportunidades que a nossa economia gera,
           seja no setor formal ou no setor informal.
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Grande parte de quem vem pra cá atua no setor informal. Isso é
           positivo de um lado e negativo de outro. No setor informal eles estão
           sujeitos a uma exploração que chega a ser cruel. Aqui na região de
@@ -312,10 +239,6 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Pelo mesmo fator que o Brasil: oportunidades de trabalho, seja no caso
           de uma migração forçada ou não. Embora haja oportunidades em outros
           estados, como no Mato Grosso, no setor agrícola, no caso específico do
@@ -325,10 +248,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Além de que a gente tem uma grande população que poderia fornecer
           atrativos quanto a iniciativas vinculadas ao empreendedorismo dos
           imigrantes. A gente tem aqui no Estado de São Paulo, em função dessa
@@ -337,10 +256,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           No caso dos imigrantes que têm profissões nesse setor, como
           cabeleireiro, manicure, cozinheiros, enfim, que podem oferecer
           produtos dentro do setor de serviços e trabalhar por conta própria
@@ -349,10 +264,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Aqui em SP também temos serviços públicos de melhor qualidade.
           Sistemas de saúde e de educação funcionam melhor e isso pode ser
           também um fator conjugado dentro do raciocínio que você apresentou com
@@ -378,10 +289,6 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Hoje temos uma cesta de direitos que pode acompanhar oportunidades de
           trabalho e de geração de renda. Mas não podemos esquecer que o poder
           público continua igual em termos de compromisso com a população. Uma
@@ -390,10 +297,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Nas primeiras ondas migratórias não existiam, ou eram muito poucos
           direitos atribuídos aos imigrantes. Não havia compromisso do poder
           público em tutelar direitos. Ele continua não se importando muito com
@@ -402,10 +305,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Esse é um ponto importante do trabalho de acolhimento, que é divulgar
           as informações de acesso aos direitos existentes. Quando falo de
           acolhimento e inclusão, falo inclusive nesse empoderamento político,
@@ -421,20 +320,12 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Nosso dado mais recente gira em torno de 400 imigrantes que recebemos
           em Marília. São de origem variada. Recebemos chineses, afegãos,
           venezuelanos, bolivianos, sírios, egípcios, entre outros.
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           As características são bem diversas. Quando consideramos a América do
           Sul, as pessoas são muito pobres e precisam de muita assistência do
           poder público para conseguir permanecer ou mesmo sair de Marília
@@ -442,10 +333,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Não é o caso dos chineses, sírios, afegãos e de outros imigrantes
           internacionais que têm como objetivo uma fixação na cidade em função
           de uma escolha por outros fatores. Eles já vêm para cá com a
@@ -460,10 +347,6 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Temos tido mais trabalho justamente no acolhimento das pessoas mais
           pobres, que não têm mesmo para onde ir. No caso de venezuelanos,
           sobretudo os indígenas, eles ficam nas ruas pedindo nos semáforos até
@@ -474,10 +357,6 @@ export function EntrevistaComExpecialista() {
 
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Como eles não têm como pagar por um lugar para ficar, acabam sendo
           submetidos a serviços públicos que são oferecidos para andarilhos e
           isso é uma distorção muito grande, porque imigrantes não são
@@ -492,11 +371,7 @@ export function EntrevistaComExpecialista() {
           dificuldade de acessar o poder público?
         </Question>
         <Text>
-          <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>A principal e primeira barreira é a linguística. Quando a
+          <br />A principal e primeira barreira é a linguística. Quando a
           superamos, podemos oferecer condições melhores de inclusão à medida
           que começamos uma alfabetização jurídica e política. É quando levamos
           conhecimento para as pessoas sobre garantias e direitos individuais e
@@ -505,10 +380,6 @@ export function EntrevistaComExpecialista() {
         </Text>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Simultaneamente, uma condição digna, como um lugar para morar, um
           alojamento, ou abrigo também representam grande dificuldade. As
           pessoas não podem ficar em situação de rua enquanto aprendem a falar
@@ -529,23 +400,14 @@ export function EntrevistaComExpecialista() {
         </Question>
         <Text>
           <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
           Caso haja expansão da imigração e em grau acentuado, como observamos
           hoje, vamos precisar que o poder público comece a atuar para efetivar
           a nossa legislação.
         </Text>
         <Text>
-          <br />
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>
-          <>&nbsp;</>O imigrante precisa ser recebido como pessoa, como ser
-          digno. O que é muito complicado porque nem para residentes isso é
-          pleno, varia muito de lugar para lugar. Mas é algo que precisa
-          melhorar.
+          <br />O imigrante precisa ser recebido como pessoa, como ser digno. O
+          que é muito complicado porque nem para residentes isso é pleno, varia
+          muito de lugar para lugar. Mas é algo que precisa melhorar.
         </Text>
         <Box>
           <TextN>Entrevistado | José Geraldo Poker</TextN>

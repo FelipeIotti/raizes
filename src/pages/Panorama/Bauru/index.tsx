@@ -29,12 +29,8 @@ export function Bauru() {
         <TextContent>
           <SubTitle>Marcha para o oeste</SubTitle>
           <Text>
-            <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>O auge do transporte ferroviário e o fim da escravidão,
-            mão de obra predominate até então nas grandes fazendas cafeeiras do
+            <br />O auge do transporte ferroviário e o fim da escravidão, mão de
+            obra predominate até então nas grandes fazendas cafeeiras do
             centro-oeste paulista, atrairam parte da onda de imigrantes que
             chegaram ao Brasil no final do século XIX e começo do XX. Os
             recém-chegados à região eram majoritariamente portugueses, italianos
@@ -43,11 +39,7 @@ export function Bauru() {
           </Text>
 
           <Text>
-            <br></br>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>O<>&nbsp;</>
+            <br></br>O<>&nbsp;</>
             <a
               href={
                 "http://buscatextual.cnpq.br/buscatextual/visualizacv.do;jsessionid=4AA173CBF93ED10870F55BB7B87E7DB7.buscatextual_0"
@@ -67,10 +59,6 @@ export function Bauru() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Com o aumento nas migrações (internas), principalmente de
             nordestinos a caminho da região Sudeste, o declínio da imigração
             (externa) a partir de 1930 e as políticas de interiorização do
@@ -88,10 +76,6 @@ export function Bauru() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Além de um polo comercial, a cidade se tornou referência na
             educação, com 39 instituições de ensino superior até 2019, e na área
             da saúde, com o Hospital Estadual e o Hospital de Reabilitação de
@@ -101,23 +85,15 @@ export function Bauru() {
           </Text>
 
           <Text>
-            <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>A alta qualidade da área da saúde atrai imigrantes à
-            procura de tratamentos especializados nesses centros médicos.
-            Mariana e Fernanda*, ambas colombianas, visitam Bauru a cada 2 meses
-            e ficam uma semana. Ambas são dentistas e estão matriculadas no
-            Centro de Pós-graduação em Odontologia (CPO).
+            <br />A alta qualidade da área da saúde atrai imigrantes à procura
+            de tratamentos especializados nesses centros médicos. Mariana e
+            Fernanda*, ambas colombianas, visitam Bauru a cada 2 meses e ficam
+            uma semana. Ambas são dentistas e estão matriculadas no Centro de
+            Pós-graduação em Odontologia (CPO).
           </Text>
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Dos tipos de vistos expedidos aos 2.196 imigrantes que ingressaram
             na cidade de Bauru nos últimos 5 anos, 96,31% deles são temporários,
             enquanto os vistos residentes e provisórios não chegam a 4%. Os 10
@@ -128,10 +104,6 @@ export function Bauru() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Por fazerem parte do Mercosul, oito países hispano-americanos têm
             acesso a programas de Mobilidade Acadêmica entre países integrantes
             do bloco. A parceria possibilita a isenção de vistos para estudantes
@@ -141,10 +113,6 @@ export function Bauru() {
 
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Daniel Sebastian Flores Trujillo chegou a Bauru com essa facilidade.
             Natural de Quito, Equador, ele era um estudante de jornalismo quando
             pisou pela primeira vez, em 2019, no campus da Unesp (Universidade
@@ -157,10 +125,6 @@ export function Bauru() {
           </Text>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Durante a pandemia de Covid-19, Daniel retornou ao país de origem e
             seguiu com a formação à distância até 2022, quando retornou a Bauru
             como residente. Além dele, outros imigrantes fizeram caminhos
@@ -170,10 +134,6 @@ export function Bauru() {
           </Text>
           <Text>
             <br />
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
-            <>&nbsp;</>
             Os dados fornecidos pela sede da Polícia Federal em Bauru são os
             mais precisos quanto ao fluxo migratório que na cidade. O dado
             citado acima provém da última atualização, do final de 2022, de
